@@ -12,18 +12,228 @@
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <!-- bower CSS -->
   <link rel="stylesheet" href="/bower/normalize.css/normalize.css">
+  <!-- Fonts -->
+  <link rel="stylesheet" href="/css/fonts.css">
   <!-- CSS -->
-  <link rel="stylesheet" href="css/screen.css">
+  <link rel="stylesheet" href="/css/screen.css">
   <!-- modernizr -->
   <script src="bower/modernizr/modernizr.js"></script>
 </head>
-<body>
+<body class="page">
   <!-- [if lt IE 7]>
   <p class="browserhappy">Вы используете <strong>устаревший</html>strong> браузер. Пожалуйста <a href="http://browserhappy.com/">обновите</a> его.</p>
   <![endif] -->
-
-  <h1>Все работает</h1>
-
+  <section class="page__wrapper">
+    <!-- BEGIN header -->
+    <header class="header">
+      <!-- begin header__in  -->
+      <div class="header__in">
+        <div class="header__logo">
+          <a href="" class="header__logolink">
+            <img src="img/logo.png" alt="лого">
+            <span class="header__text">Loftschool. От мыслителя к создателю</span>
+          </a>
+        </div>
+        <ul class="header__social">
+          <li class="header__socialitem">
+            <a href="" class="header__sociallink header__sociallink_vk">
+              vk.com
+            </a>
+          </li>
+          <li class="header__socialitem">
+            <a href="" class="header__sociallink header__sociallink_tw">
+              twitter.com
+            </a>
+          </li>
+          <li class="header__socialitem">
+            <a href="" class="header__sociallink header__sociallink_fb">
+              facebook.com
+            </a>
+          </li>
+          <li class="header__socialitem">
+            <a href="" class="header__sociallink header__sociallink_github">
+              github.com
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- end header__in -->
+    </header>
+    <!-- END page-header -->
+    <!-- begin l-content  -->
+    <div class="l-content">
+      <!-- begin l-content__in  -->
+      <div class="l-content__in">
+        <!-- begin l-content__left  -->
+        <div class="l-content__left">
+          <!-- begin sidebar  -->
+          <aside class="sidebar">
+            <nav class="sidebar-nav">
+              <ul class="sidebar-menu">
+                <li class="sidebar-menu__item">
+                  <a href="" class="sidebar-menu__itemlink sidebar-menu__itemlink_active">
+                    Обо мне
+                  </a>
+                </li>
+                <li class="sidebar-menu__item">
+                  <a href="" class="sidebar-menu__itemlink">
+                    Мои работы
+                  </a>
+                </li>
+                <li class="sidebar-menu__item">
+                  <a href="" class="sidebar-menu__itemlink">
+                    Связаться со мной
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="contacts">
+              <p class="contacts__heading">Контакты</p>
+              <ul class="contacts__list">
+                <li class="contacts__item contacts__item_email">
+                  <a href="mailto:madorinkv@gmail.com" class="contacts__itemlink contacts__itemlink_email">madorinkv@gmail.com</a>
+                </li>
+                <li class="contacts__item contacts__item_tel">
+                  <a href="tel:+79202119777" class="contacts__itemlink contacts__itemlink_tel">+79202119777
+                  </a>
+                </li>
+                <li class="contacts__item contacts__item_skype">
+                  <a href="callto:kirill.madorin" class="contacts__itemlink contacts__itemlink_skype">kirill.madorin
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          <!-- end sidebar -->
+        </div>
+        <!-- end l-content__left -->
+        <!-- begin l-content__right  -->
+        <div class="l-content__right">
+          <!-- begin main-info  -->
+          <div class="main-info">
+            <h2 class="main-info__heading">Основная информация</h2>
+            <!-- begin main-info__row  -->
+            <div class="main-info__row">
+              <div class="main-info__photocol">
+                <div class="main-info__photowrapper">
+                  <img src="img/photo.jpg" alt="моя фотография" class="main-info__photo">
+                </div>
+              </div>
+              <div class="main-info__contentcol">
+                <dl class="main-info__list">
+                  <div class="main-info__listitem">
+                    <dt class="main-info__term">
+                      Меня зовут:
+                    </dt>
+                    <dd class="main-info__def">
+                      Мадорин Кирилл Владимирович
+                    </dd>
+                  </div>
+                  <div class="main-info__listitem">
+                    <dt class="main-info__term">
+                      Мой возраст:
+                    </dt>
+                    <dd class="main-info__def">
+                      27 лет
+                    </dd>
+                  </div>
+                  <div class="main-info__listitem">
+                    <dt class="main-info__term">
+                      Мой город:
+                    </dt>
+                    <dd class="main-info__def">
+                      Воронеж, Россия
+                    </dd>
+                  </div>
+                  <div class="main-info__listitem">
+                    <dt class="main-info__term">
+                      Моя специализация:
+                    </dt>
+                    <dd class="main-info__def">
+                      FRONTEND разработчик
+                    </dd>
+                  </div>
+                  <div class="main-info__listitem main-info__listitem_skills">
+                    <dt class="main-info__term main-info__term_skills">
+                      Ключевые навыки:
+                    </dt>
+                    <dd class="main-info__def main-info__def_skills">
+                      <ul class="main-info__skills">
+                        <li class="main-info__skill">html</li>
+                        <li class="main-info__skill">css</li>
+                        <li class="main-info__skill">javascript</li>
+                        <li class="main-info__skill">jquery</li>
+                        <li class="main-info__skill">git</li>
+                        <li class="main-info__skill">gulp</li>
+                      </ul>
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+            <!-- end main-info__row -->
+          </div>
+          <!-- end main-info  -->
+          <!-- begin experience  -->
+          <div class="experience">
+            <h2 class="experience__heading">Опыт работы</h2>
+            <ul class="experience__items">
+              <li class="experience__item">
+                <span class="experience__item--place">Фриланс, frontend-разработчик</span>
+                <span class="experience__item--time">Февраль 2014 - настоящее время</span>
+              </li>
+              <li class="experience__item">
+                <span class="experience__item--place">ID COMPANY, менеджер по маркетингу мобильных приложений</span>
+                <span class="experience__item--time">Май 2011 - Октябрь 2013</span>
+              </li>
+              <li class="experience__item">
+                <span class="experience__item--place">Softline, контент-менеджер</span>
+                <span class="experience__item--time">Август 2009 - Май 2010</span>
+              </li>
+            </ul>
+          </div>
+          <!-- end experience -->
+          <!-- begin education  -->
+          <div class="education">
+            <h2 class="education__heading">Образование</h2>
+            <ul class="education__items">
+              <li class="education__item education__item_edu">
+                <span class="education__item--place">Магистр по специальности "Математика. Компьютерные науки" (Воронежский государственный университет)</span>
+                <span class="education__item--time">сентябрь 2005 - август 2011</span>
+              </li>
+              <li class="education__item education__item_edu">
+                <span class="education__item--place">Переводчик в сфере профессиональных коммуникаций (Воронежский государственный университет)</span>
+                <span class="education__item--time">сентябрь 2009 - май 2009</span>
+              </li>
+              <li class="education__item education__item_course">
+                <span class="education__item--place">LoftSchool</span>
+                <span class="education__item--time">июль 2015 - настоящее время</span>
+              </li>
+            </ul>
+          </div>
+          <!-- end education -->
+        </div>
+        <!-- end l-content__right -->
+      </div>
+      <!-- end l-content__in -->
+    </div>
+    <!-- end l-content -->
+    <div class="page__buffer"></div>
+  </section>
+  <div class="page__footer">
+    <footer class="footer">
+      <!-- begin footer__in  -->
+      <div class="footer__in">
+        <a href="" class="footer__login"></a>
+        <div class="footer__copy">
+          <p class="footer__copy--text">
+            &copy; 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его
+          </p>
+        </div>
+      </div>
+      <!-- end footer__in -->
+    </footer>
+  </div>
   <script src="bower/jquery/dist/jquery.js"></script>
   <script src="js/main.js"></script>
 </body>
